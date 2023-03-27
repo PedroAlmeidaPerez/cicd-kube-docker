@@ -86,8 +86,9 @@ pipeline {
             steps{
                 script {
                     docker.withRegistry('', registryCredential){
-                        docker.Image.push("V$BUILD_NUMBER")
-                        docker.Image.push('latest')
+                        sh "docker push pedroalmeidaperez/vproappdock:V$BUILD_NUMBER"
+                     /*   docker.Image.push("V$BUILD_NUMBER")
+                        docker.Image.push('latest')*/
                     }
                 }
             }
