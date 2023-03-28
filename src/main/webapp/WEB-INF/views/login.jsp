@@ -16,7 +16,7 @@
 
     <title>LOGIN2</title>
 
-    <link href="${contextPath}/resources/css/bootstrappedro.min.css" rel="stylesheet">
+    <link href="${contextPath}/resources/css/bootstrappedropedro.min.css" rel="stylesheet">
     <link href="${contextPath}/resources/css/common.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
