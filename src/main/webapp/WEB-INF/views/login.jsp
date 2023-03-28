@@ -16,7 +16,7 @@
 
     <title>LOGIN2</title>
 
-    <link href="${contextPath}/resources/css/bootstrappedropedro.min.css" rel="stylesheet">
+    <link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="${contextPath}/resources/css/common.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -48,7 +48,7 @@
                             <i class="brand_network"><small><small>VProfile</small></small></i>
                         </div>
                         <div class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
+                            <ul class="nav navbar-nav"
                                 <li><a href="#">TECHNOLOGIES</a></li>
                                 <li><a href="#">ABOUT</a></li>
                                 <li><a href="#">BLOG</a></li>
